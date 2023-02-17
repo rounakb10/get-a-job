@@ -9,3 +9,9 @@ jobs:
       - uses: actions/setup-node@v3
         with: 
           node-version: 16
+      - name: npm install client
+        run: |
+          npm run install-client
+      - name: react build
+        run: |
+          npm run build-client
