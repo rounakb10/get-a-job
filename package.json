@@ -10,7 +10,9 @@
 	"scripts": {
 		"server": "nodemon server --ignore client",
 		"client": "npm start --prefix client",
-		"start": "node server"
+		"start": "node server",
+		"install-client": "npm install --prefix client",
+		"build-client": "npm run build --prefix client"
 	},
 	"keywords": [],
 	"author": "",
