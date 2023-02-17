@@ -12,7 +12,7 @@
 		"client": "npm start --prefix client",
 		"start": "node server",
 		"install-client": "cd client && npm install",
-		"build": "npm run install-client && npm run build --prefix client"
+		"build": "npm run build --prefix client"
 	},
 	"keywords": [],
 	"author": "",
