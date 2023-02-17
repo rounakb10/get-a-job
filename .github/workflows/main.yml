@@ -1,0 +1,10 @@
+name: React build
+on: 
+  push
+jobs:
+  Build-React-App:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Build react app
+        run: |
+          cd client && npm run build
